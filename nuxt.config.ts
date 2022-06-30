@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt'
 import { loadEnv } from 'vite'
 import eslintPlugin from 'vite-plugin-eslint'
 

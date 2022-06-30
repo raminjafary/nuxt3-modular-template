@@ -21,6 +21,7 @@ module.exports = {
 		'vue/script-setup-uses-vars': 0,
 		'no-unused-expressions': 'off',
 		'vue/no-v-html': 'off',
+		'vue/multi-word-component-names': 'off',
 		'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
 	},
