@@ -1,6 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import type { AxiosInstance } from 'axios'
-// ? authentication
 import type { RAuth } from './auth/types'
 import auth from './auth'
 
@@ -8,7 +6,7 @@ export interface RepositoryServices {
 	auth: RAuth
 }
 
-function lazyBind<T>(repoFactory: any, repoInterface: T, axios: AxiosInstance) {
+function lazyBind<T>(repoFactory: any, repoInterface: any, axios: AxiosInstance) {
 	return {
 		...Object.keys(repoInterface).reduce((acc, method: any) => {
 			const resolvedMethod = async (...args: any[]) => {

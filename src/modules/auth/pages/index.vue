@@ -1,5 +1,6 @@
-<script lang="ts">
-import Hello from '../components/hello.vue'
+<script lang="ts" setup>
+import { useNuxtApp } from '#app'
+const { $repositories } = useNuxtApp()
 </script>
 <template>
 	<div>
@@ -7,6 +8,9 @@ import Hello from '../components/hello.vue'
 		<br />
 		<br />
 		<br />
-		<Hello />
+		<pre>
+			{{ $repositories }}
+		</pre
+		>
 	</div>
 </template>

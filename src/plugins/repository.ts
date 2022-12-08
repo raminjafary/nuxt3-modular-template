@@ -1,9 +1,6 @@
-// ? nuxt
 import { defineNuxtPlugin } from '#app'
-// ? repositories
 import repositories from '@/repositories'
 import type { RepositoryServices } from '@/repositories'
-// ? axios
 import axios from '@/api'
 
 export default defineNuxtPlugin(() => {

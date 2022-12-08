@@ -2,7 +2,6 @@ import { resolve } from 'pathe'
 import { defineNuxtModule, extendPages } from '@nuxt/kit'
 
 export default defineNuxtModule({
-	name: 'auth',
 	setup(_options, nuxt) {
 		nuxt.hook('components:dirs', (dirs) => {
 			dirs.push({

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-// import { useNuxtApp } from '#app'
-// const { $repositories } = useNuxtApp()
+import { useNuxtApp } from '#app'
+const { $repositories } = useNuxtApp()
 </script>
 <template>
 	<div class="text-blue-600">
@@ -9,5 +9,9 @@
 		<br />
 		<br />
 		home
+		<pre>
+			{{ $repositories }}
+		</pre
+		>
 	</div>
 </template>
