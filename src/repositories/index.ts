@@ -18,7 +18,7 @@ function lazyBind<T>(repoFactory: any, repoInterface: any, axios: AxiosInstance)
 				[method]: resolvedMethod,
 			}
 		}, {}),
-	}
+	} as T
 }
 
 export default function repositories(axios: AxiosInstance) {
