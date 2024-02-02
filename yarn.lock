@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -7871,9 +7871,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A^2.3.2#optional!builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.3#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.3#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -11180,40 +11180,40 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nuxt3@workspace:."
   dependencies:
-    "@babel/preset-env": "npm:^7.23.9"
-    "@commitlint/cli": "npm:^18.6.0"
-    "@commitlint/config-conventional": "npm:^18.6.0"
-    "@intlify/nuxt3": "npm:^0.2.4"
-    "@types/jest": "npm:^29.5.12"
-    "@types/node": "npm:^20.11.16"
-    "@typescript-eslint/eslint-plugin": "npm:^6.20.0"
-    "@typescript-eslint/parser": "npm:^6.20.0"
-    "@vue/eslint-config-typescript": "npm:^12.0.0"
-    "@vue/test-utils": "npm:^2.4.4"
-    autoprefixer: "npm:^10.4.17"
-    axios: "npm:^1.6.7"
-    babel-jest: "npm:^29.7.0"
-    cross-env: "npm:^7.0.3"
-    eslint: "npm:^8.56.0"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-nuxt: "npm:^4.0.0"
-    eslint-plugin-prettier: "npm:^5.1.3"
-    husky: "npm:^9.0.10"
-    jest: "npm:^29.7.0"
-    lint-staged: "npm:^15.2.1"
-    nuxt: "npm:^3.10.0"
-    postcss: "npm:^8.4.33"
-    postcss-html: "npm:^1.6.0"
-    prettier: "npm:^3.2.4"
-    standard-version: "npm:^9.5.0"
-    stylelint: "npm:^16.2.1"
-    stylelint-config-recommended: "npm:^14.0.0"
-    stylelint-config-standard: "npm:^36.0.0"
-    tailwindcss: "npm:^3.4.1"
-    ts-jest: "npm:^29.1.2"
-    typescript: "npm:^5.3.3"
-    vite-plugin-eslint: "npm:^1.8.1"
-    vue3-jest: "npm:27.0.0-alpha.1"
+    "@babel/preset-env": ^7.23.9
+    "@commitlint/cli": ^18.6.0
+    "@commitlint/config-conventional": ^18.6.0
+    "@intlify/nuxt3": ^0.2.4
+    "@types/jest": ^29.5.12
+    "@types/node": ^20.11.16
+    "@typescript-eslint/eslint-plugin": ^6.20.0
+    "@typescript-eslint/parser": ^6.20.0
+    "@vue/eslint-config-typescript": ^12.0.0
+    "@vue/test-utils": ^2.4.4
+    autoprefixer: ^10.4.17
+    axios: ^1.6.7
+    babel-jest: ^29.7.0
+    cross-env: ^7.0.3
+    eslint: ^8.56.0
+    eslint-config-prettier: ^9.1.0
+    eslint-plugin-nuxt: ^4.0.0
+    eslint-plugin-prettier: ^5.1.3
+    husky: ^9.0.10
+    jest: ^29.7.0
+    lint-staged: ^15.2.1
+    nuxt: ^3.10.0
+    postcss: ^8.4.33
+    postcss-html: ^1.6.0
+    prettier: ^3.2.4
+    standard-version: ^9.5.0
+    stylelint: ^16.2.1
+    stylelint-config-recommended: ^14.0.0
+    stylelint-config-standard: ^36.0.0
+    tailwindcss: ^3.4.1
+    ts-jest: ^29.1.2
+    typescript: ^5.3.3
+    vite-plugin-eslint: ^1.8.1
+    vue3-jest: 27.0.0-alpha.1
   languageName: unknown
   linkType: soft
 
@@ -12723,16 +12723,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.1.7#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.22.2#~builtin<compat/resolve>":
   version: 1.22.4
-  resolution: "resolve@patch:resolve@npm%3A1.22.4#optional!builtin<compat/resolve>::version=1.22.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 13262490c7b0ac54f6397f1d45ee139ebd2e431781e2ff0d9c27bf41648a349a90bc23a3ab2768f0f821efdd2cba08fb85f21288fc0cc01718c03557fbd285bc
+  checksum: 8/c45f2545fdc4d21883861b032789e20aa67a2f2692f68da320cc84d5724cd02f2923766c5354b3210897e88f1a7b3d6d2c7c22faeead8eed7078e4c783a444bc
   languageName: node
   linkType: hard
 
@@ -14161,13 +14161,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@^5.3.3#~builtin<compat/typescript>":
   version: 5.3.3
-  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=29ae49"
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 57bf073a0b88f9bf76e5a24be3df864a8f9d0e70f8316969f4992ae26e30cb8d078708922da2ade1f2c8d1faee13b28bcb69876ebb1e37910e31c54aa9126aa2
+  checksum: 8/4e604a9e107ce0c23b16a2f8d79d0531d4d8fe9ebbb7a8c395c66998c39892f0e0a071ef0b0d4e66420a8ec2b8d6cfd9cdb29ba24f25b37cba072e9282376df9
   languageName: node
   linkType: hard
 
@@ -14773,7 +14773,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.0.12":
+"vite@npm:5.0.12, vite@npm:^5.0.0":
   version: 5.0.12
   resolution: "vite@npm:5.0.12"
   dependencies:
@@ -14810,46 +14810,6 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: ed0bb26a0d0c8e1dae0b70af9e36adffd7e15d80297443fe4da762596dc81570bad7f0291f590a57c1553f5e435338d8c7ffc483bd9431a95c09d9ac90665fad
-  languageName: node
-  linkType: hard
-
-"vite@npm:^5.0.0":
-  version: 5.0.11
-  resolution: "vite@npm:5.0.11"
-  dependencies:
-    esbuild: "npm:^0.19.3"
-    fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.4.32"
-    rollup: "npm:^4.2.0"
-  peerDependencies:
-    "@types/node": ^18.0.0 || >=20.0.0
-    less: "*"
-    lightningcss: ^1.21.0
-    sass: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.4.0
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    less:
-      optional: true
-    lightningcss:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: f1a8fea35ed9f162d7a10fd13efb2c96637028b0a319d726aeec8b31e20e4d047272bda5df82167618e7774a520236c66f3093ed172802660aec5227814072f4
   languageName: node
   linkType: hard
 
